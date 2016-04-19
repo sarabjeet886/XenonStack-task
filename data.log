@@ -1,0 +1,368 @@
+{
+  "took" : 50,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 8379,
+    "max_score" : 1.0,
+    "hits" : [ {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "system",
+      "_id" : "AVQt8cjryK2YDOW8v5RC",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.938Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "cpu" : {
+          "user" : 40535,
+          "user_p" : 0.0681,
+          "nice" : 179,
+          "system" : 9473,
+          "system_p" : 0.0028,
+          "idle" : 594416,
+          "iowait" : 8838,
+          "irq" : 1,
+          "softirq" : 46,
+          "steal" : 0
+        },
+        "load" : {
+          "load1" : 0.13,
+          "load5" : 0.24,
+          "load15" : 0.19
+        },
+        "mem" : {
+          "total" : 4072620032,
+          "used" : 2160545792,
+          "free" : 1912074240,
+          "used_p" : 0.53,
+          "actual_used" : 1229099008,
+          "actual_free" : 2843521024,
+          "actual_used_p" : 0.3
+        },
+        "swap" : {
+          "total" : 0,
+          "used" : 0,
+          "free" : 0,
+          "used_p" : 0
+        },
+        "type" : "system"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5RD",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.939Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cmdline" : "/sbin/init splash",
+          "cpu" : {
+            "user" : 480,
+            "user_p" : 0,
+            "system" : 1090,
+            "total" : 1570,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 186953728,
+            "rss" : 5394432,
+            "rss_p" : 0,
+            "share" : 3751936
+          },
+          "name" : "systemd",
+          "pid" : 1,
+          "ppid" : 0,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5RF",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.941Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 20,
+            "total" : 20,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "ksoftirqd/0",
+          "pid" : 3,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5RK",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.943Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "rcuob/0",
+          "pid" : 10,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5RU",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.950Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 80,
+            "total" : 80,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "migration/2",
+          "pid" : 21,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5RW",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.952Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "kworker/2:0H",
+          "pid" : 24,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5Re",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.956Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "rcuob/3",
+          "pid" : 33,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjryK2YDOW8v5Ri",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.958Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "perf",
+          "pid" : 37,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjsyK2YDOW8v5Rp",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.961Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "bioset",
+          "pid" : 44,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    }, {
+      "_index" : "topbeat-2016.04.19",
+      "_type" : "process",
+      "_id" : "AVQt8cjsyK2YDOW8v5Rs",
+      "_score" : 1.0,
+      "_source" : {
+        "@timestamp" : "2016-04-19T09:55:00.962Z",
+        "beat" : {
+          "hostname" : "sarabjeet-HP-15-Notebook-PC",
+          "name" : "sarabjeet-HP-15-Notebook-PC"
+        },
+        "count" : 1,
+        "proc" : {
+          "cpu" : {
+            "user" : 0,
+            "user_p" : 0,
+            "system" : 0,
+            "total" : 0,
+            "start_time" : "13:51"
+          },
+          "mem" : {
+            "size" : 0,
+            "rss" : 0,
+            "rss_p" : 0,
+            "share" : 0
+          },
+          "name" : "md",
+          "pid" : 47,
+          "ppid" : 2,
+          "state" : "sleeping",
+          "username" : "root"
+        },
+        "type" : "process"
+      }
+    } ]
+  }
+}
+
